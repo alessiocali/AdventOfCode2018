@@ -115,5 +115,5 @@ int main(int argc, char** argv)
     std::cout << getOverclaimedCount(fabric) << std::endl;
     std::cout << getIsolatedClaim(fabric, claims) << std::endl;
 
-    system("pause");
+    std::cin.get();
 }

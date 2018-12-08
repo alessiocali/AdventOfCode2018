@@ -95,5 +95,5 @@ int main(int argc, char** argv)
         std::cout << "Matching characters are: " << match << std::endl;
     }
 
-    system("pause");
+    std::cin.get();
 }

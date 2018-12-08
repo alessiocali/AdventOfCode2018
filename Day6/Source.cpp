@@ -153,6 +153,6 @@ int main(int argc, char** argv)
 
     std::cout << "Safe area has size " << safeArea.size() << std::endl;
 
-    system("pause");
+    std::cin.get();
     return 0;
 }

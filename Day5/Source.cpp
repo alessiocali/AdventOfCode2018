@@ -77,6 +77,6 @@ int main(int argc, char** argv)
 
         std::cout << shortest->length() << std::endl;
 
-        system("pause");
+        std::cin.get();
     }
 }

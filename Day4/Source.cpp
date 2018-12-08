@@ -133,5 +133,5 @@ int main(int argc, char** argv)
     findSleepyHead2(sleepMap, bestGuard, sleepyMinute);
     std::cout << (bestGuard * sleepyMinute) << std::endl;
 
-    system("pause");
+    std::cin.get();
 }

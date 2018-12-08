@@ -15,5 +15,6 @@ int main(int argc, char** argv)
 
     std::cout << "Metadata count is " << root.getCompleteMetadataSum() << std::endl;
     std::cout << "Value of root is " << root.value() << std::endl;
-    system("pause");
+    
+    std::cin.get();
 }

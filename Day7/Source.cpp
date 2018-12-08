@@ -143,6 +143,6 @@ int main(int argc, char** argv)
     int execTime = getParallelExecutionSequence(nodeMap, sequence);
     std::cout << "Sequence: " << sequence << " completed in " << execTime << " seconds." << std::endl;
 
-    system("pause");
+    std::cin.get();
     return 0;
 }
